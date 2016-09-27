@@ -1,4 +1,4 @@
 # styleguide
 
-1) https://plnkr.co/edit/AHw9hv7sYXvoan6p1zZj?p=preview
+1) https://plnkr.co/edit/JkRmRwRZlCDf9pagwfRf?p=preview
 
