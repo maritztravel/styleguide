@@ -1,4 +1,7 @@
 # styleguide
 
-1) https://plnkr.co/edit/JkRmRwRZlCDf9pagwfRf?p=preview
+All examples can be found here: https://plnkr.co/users/maritzdev
+
+* Promises
+	* Component + Service with Promises
 
