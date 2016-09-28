@@ -8,7 +8,9 @@
 	* **[Component vs Controller](https://plnkr.co/edit/QRmBKp?p=preview)**
 		* This app has one component, one controller, and one service (mocking a ajax call). Functionality-wise the controller and the component are almost identical. One difference is that the component wraps its controller with the template vs the standalone controller which is linked to an existing template by putting ng-controller attribute on it. The component simply has to name the html tag in spinal-case (i.e. &lt;mtc-component&gt;&lt;/mtc-component&gt;) and the component name in camelCase (i.e. mtcComponent) and then you have a sort of ready-to-go directive. Another nice feature of the component is that we can use the built-in $onInit lifecycle hook to kick off the startup function(s) vs the controller which simply has the startup function(s) at the bottom of the controller. 
 	* **[Component Bindings](https://plnkr.co/edit/RCesTW?p=preview)**
-		* blah 
+		* Shows simple way to break up functionality into sub-components. The communication, is this case, between components happens with a ONE-WAY BINDING.
+	* **[Component Bindings - Parent](https://plnkr.co/edit/kg13Z3?p=preview)**
+		* blah
 
 * **Promises**
 	* **[Component + Service with Promises](https://plnkr.co/edit/ZWtX4B?p=preview)**
