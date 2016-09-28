@@ -5,8 +5,8 @@
 > **NOTE:** if any of these examples don't work check out the **[github rate limit api](https://api.github.com/rate_limit)** to make sure the calls are succeeding. 
 
 * **Component vs (Controller + Directive + Template)**
-	* **[Component vs (Controller + Directive + Template)](https://plnkr.co/edit/QRmBKp?p=preview)**
-		* blah
+	* **[Component vs Controller](https://plnkr.co/edit/QRmBKp?p=preview)**
+		* This app has one component, one controller, and one service (mocking a ajax call). Functionality-wise the controller and the component are almost identical. One difference is that the component wraps its controller with the template vs the standalone controller which is linked to an existing template by putting ng-controller attribute on it. The component simply has to name the html tag in spinal-case (i.e. <mtc-component></mtc-component>) and the component name in camelCase (i.e. mtcComponent) and then you have a sort of ready-to-go directive. Another nice feature of the component is that we can use the built-in $onInit lifecycle hook to kick off the startup function(s) vs the controller which simply has the startup function(s) at the bottom of the controller. 
 
 * **Promises**
 	* **[Component + Service with Promises](https://plnkr.co/edit/ZWtX4B?p=preview)**
