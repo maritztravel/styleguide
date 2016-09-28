@@ -10,7 +10,7 @@
 	* **[Component Bindings](https://plnkr.co/edit/RCesTW?p=preview)**
 		* Shows simple way to break up functionality into sub-components. The communication, is this case, between components happens with a ONE-WAY BINDING.
 	* **[Component Bindings - Parent](https://plnkr.co/edit/kg13Z3?p=preview)**
-		* The communication, is this case, between components happens by having a REQUIRE of the parent component in the child component. This gives the child component access to everything in the parent component's scope.
+		* The communication, is this case, between components happens by having a REQUIRE of the parent component in the child component. This gives the child component access to everything in the parent component's scope. No need for onChanges or scope.watch in parent controller, simply access the property/function in the child component and everything happens auto-magically!
 
 * **Promises**
 	* **[Component + Service with Promises](https://plnkr.co/edit/ZWtX4B?p=preview)**
