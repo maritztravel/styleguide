@@ -1,8 +1,8 @@
 # styleguide
 
-All examples can be found here: https://plnkr.co/users/maritzdev
+> All examples can be found here: https://plnkr.co/users/maritzdev
 
-**NOTE:** if any of these examples don't work check out the **[github rate limit api](https://api.github.com/rate_limit)** to make sure the calls are succeeding. 
+> **NOTE:** if any of these examples don't work check out the **[github rate limit api](https://api.github.com/rate_limit)** to make sure the calls are succeeding. 
 
 * **Component vs (Controller + Directive + Template)**
 	* **[Component vs (Controller + Directive + Template)](https://plnkr.co/edit/aaaaaaaaaaaaaaaaa?p=preview)**
