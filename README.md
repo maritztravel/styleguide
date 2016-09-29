@@ -1,7 +1,8 @@
 # Agreed Best Practices
 * Use Components **_not_** controllers + templates + directives
 * Use Promises **_not_** custom success and error callbacks 
-* Use Serices **_not_** factories 
+* Use Serices **_not_** factories
+* Use Constants as they should be used **_not_** as configuration objects to be resolved by the router
 
 <hr>
 
