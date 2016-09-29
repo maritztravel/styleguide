@@ -4,7 +4,7 @@
 > Some example use real github api so if you have an issue with a plunker check the **[github rate limit api](https://api.github.com/rate_limit)**
 
 <div style="background-color:#aaa">
-##Angular 1.5+ with ES5 JavaScript
+Angular 1.5+ with ES5 JavaScript
 
 * **Component vs (Controller + Directive + Template)**
 	* **[Component vs Controller](https://plnkr.co/edit/QRmBKp?p=preview)**
