@@ -3,8 +3,7 @@
 > All plunker examples can be found here: **[maritzdev's plunkers](https://plnkr.co/users/maritzdev)** <br>
 > Some example use real github api so if you have an issue with a plunker check the **[github rate limit api](https://api.github.com/rate_limit)**
 
-<div style="background-color:#aaa">
-Angular 1.5+ with ES5 JavaScript
+# Angular 1.5+ with ES5 JavaScript
 
 * **Component vs (Controller + Directive + Template)**
 	* **[Component vs Controller](https://plnkr.co/edit/QRmBKp?p=preview)**
@@ -21,5 +20,3 @@ Angular 1.5+ with ES5 JavaScript
 		* This shows how you can add a return statement that returns a promise in the first THEN, which allows you to simply chain on another THEN to handle the promise from the second async call. This flattens the code view when issuing multiple async calls so the code can be read as though it is almost synchronous. Only sticky issue is if you want to handle errors differently for each async call then you need a catch on each call and one final one at the end to catch any failure.
 	*  **[$q.all to Resolve all Promises at Once](https://plnkr.co/edit/BrtIuo?p=preview)**
 		* Here we do one call to fetch a list of 30 users then we loop thru those 30 and immediately make a call forEach to get the user details. But we want to wait until all the responses are returned until we show the list so we use $q.all() and pass in the array of promises to be resolved. After each individual call is resolved the main promise is resolved. 
-
-</div>
