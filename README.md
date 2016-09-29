@@ -3,6 +3,9 @@
 > All plunker examples can be found here: **[maritzdev's plunkers](https://plnkr.co/users/maritzdev)** <br>
 > Some example use real github api so if you have an issue with a plunker check the **[github rate limit api](https://api.github.com/rate_limit)**
 
+<div style="background-color:#aaa">
+##Angular 1.5+ with ES5 JavaScript
+
 * **Component vs (Controller + Directive + Template)**
 	* **[Component vs Controller](https://plnkr.co/edit/QRmBKp?p=preview)**
 		* This app has one component, one controller, and one service (mocking a ajax call). Functionality-wise the controller and the component are almost identical. One difference is that the component wraps its controller with the template vs the standalone controller which is linked to an existing template by putting ng-controller attribute on it. The component simply has to name the html tag in spinal-case (i.e. &lt;mtc-component&gt;&lt;/mtc-component&gt;) and the component name in camelCase (i.e. mtcComponent) and then you have a sort of ready-to-go directive. Another nice feature of the component is that we can use the built-in $onInit lifecycle hook to kick off the startup function(s) vs the controller which simply has the startup function(s) at the bottom of the controller. 
@@ -19,3 +22,4 @@
 	*  **[$q.all to Resolve all Promises at Once](https://plnkr.co/edit/BrtIuo?p=preview)**
 		* Here we do one call to fetch a list of 30 users then we loop thru those 30 and immediately make a call forEach to get the user details. But we want to wait until all the responses are returned until we show the list so we use $q.all() and pass in the array of promises to be resolved. After each individual call is resolved the main promise is resolved. 
 
+</div>
