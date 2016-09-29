@@ -1,7 +1,6 @@
 # styleguide
 
-> All examples can be found here: https://plnkr.co/users/maritzdev
-
+> All plunker examples can be found here: **[maritzdev's plunkers](https://plnkr.co/users/maritzdev)** <br>
 > Some example use real github api so if you have an issue with a plunker check the **[github rate limit api](https://api.github.com/rate_limit)**
 
 * **Component vs (Controller + Directive + Template)**
