@@ -1,6 +1,6 @@
 # styleguide
 
-<h2 style="text-align:center;">Agreed Best Practices</h2>
+## Agreed Best Practices
 * Use components 
 	* blah
 
