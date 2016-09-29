@@ -1,5 +1,5 @@
 # styleguide
-<h2 style="text-align:center;background-color:red;">Agreed Best Practices</h2>
+<h2 style="text-align:center;border: 5px red solid;">Agreed Best Practices</h2>
 * Use components 
 	* blah
 
