@@ -1,7 +1,7 @@
 # Agreed Best Practices
 * Use Components **_not_** controllers + templates + directives
 * Use Promises **_not_** custom success and error callbacks 
-* Use Serices **_not_** factories
+* Use Services **_not_** factories
 * Use Constants as they should be used **_not_** as configuration objects to be resolved by the router
 
 <hr>
@@ -18,6 +18,8 @@
 		* Shows simple way to break up functionality into sub-components. The communication, is this case, between components happens with a ONE-WAY BINDING.
 	* **[Component Bindings - Parent](https://plnkr.co/edit/kg13Z3?p=preview)**
 		* The communication, is this case, between components happens by having a REQUIRE of the parent component in the child component. This gives the child component access to everything in the parent component's scope. No need for onChanges or scope.watch in parent controller, simply access the property/function in the child component and everything happens auto-magically!
+	* **[Component Bindings $onChanges - one-way vs two-way](https://plnkr.co/edit/omcVM1xQ0JYikMp3CG5V?p=preview)**
+		* When using the one-way binding $onChanges will fire anytime the data changes in the parent and once on initialization. When using the two-way binding $onChanges will fire only on initialization.
 
 * **Promises**
 	* **[Component + Service with Promises](https://plnkr.co/edit/ZWtX4B?p=preview)**
@@ -25,7 +27,7 @@
 	* **[Chaining Promises](https://plnkr.co/edit/2oLQhi?p=preview)**
 		* This shows how you can add a return statement that returns a promise in the first THEN, which allows you to simply chain on another THEN to handle the promise from the second async call. This flattens the code view when issuing multiple async calls so the code can be read as though it is almost synchronous. Only sticky issue is if you want to handle errors differently for each async call then you need a catch on each call and one final one at the end to catch any failure.
 	*  **[$q.all to Resolve all Promises at Once](https://plnkr.co/edit/BrtIuo?p=preview)**
-		* Here we do one call to fetch a list of 30 users then we loop thru those 30 and immediately make a call forEach to get the user details. But we want to wait until all the responses are returned until we show the list so we use $q.all() and pass in the array of promises to be resolved. After each individual call is resolved the main promise is resolved. 
+		* Here we do one call to fetch a list of 30 users then we loop thru those 30 and immediately make a call forEach to get the user details. But we want to wait until all the responses are returned until we show the list so we use $q.all() and pass in the array of promises to be resolved. After each individual call is resolved the main promise is resolved.
 
 ## Angular 1.5+ with TypeScript
 
